@@ -21,14 +21,14 @@ There are also several objects that can be attached to other objects, such as ra
 ### Inserting an object
 To insert a new object, go to "Insert -> new", which will bring up the following window:
 
-![](object_window.PNG)
+![](STK_application/STK_application_figures/object_window.PNG)
 
 - - - 
 **N.B. :** Above the object browser, there is a search bar where you can search for specific objects to add to the scenario, such as "Mount St. Helen's" as a "place".
 - - -
 
 - - - 
-**N.B. :** If you add many objects and your scenario visualizations in the 2D and 3D viewer are cluttered, you can uncheck the box to the left of an object to remove it from the viewer. Doing so can make your [movies](STK_Basics.md) more visually appealing. 
+**N.B. :** If you add many objects and your scenario visualizations in the 2D and 3D viewer are cluttered, you can uncheck the box to the left of an object to remove it from the viewer. Doing so can make your [movies](STK_application/STK_Basics.md) more visually appealing. 
 - - -
 
 ### Object Properties

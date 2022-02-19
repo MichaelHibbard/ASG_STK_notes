@@ -1,5 +1,5 @@
 # Places
-A place is an [STK_Objects](STK_Objects.md) that defines a landmark, a city, etc.
+A place is an [STK_Objects](STK_application/STK_Objects.md) that defines a landmark, a city, etc.
 
 ### Inserting a New Place
 
@@ -7,11 +7,11 @@ To add a new place, go to "insert -> new" and click "place". The easiest method 
 
 From this selection, you can search for the desired place of interest by means of a number of parameters. For example, you could include Austin, Tx:
 
-![](place_picker.PNG)
+![](STK_application/STK_application_figures/place_picker.PNG)
 
 which yields
 
-![](Austin_pic.PNG)
+![](STK_application/STK_application_figures/Austin_pic.PNG)
 
 in the 3D pane (it should also appear in the 2D visualization).
 

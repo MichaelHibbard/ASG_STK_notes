@@ -61,12 +61,12 @@ if (useStkEngine == False) and (noGraphics == True):
 
 ```
 
-The above block of code functionally performs the same task as the first two figures shown in the [STK basics](STK_Basics.md) page of the application notes.
+The above block of code functionally performs the same task as the first two figures shown in the [STK basics](STK_application/STK_Basics.md) page of the application notes.
 
 
 ## Adding Objects to the Scenario
 
-As in the [STK application](STK_Basics.md), the scenario just created is populated by a set of objects, such as satellites, facilities, and places.
+As in the [STK application](STK_application/STK_Basics.md), the scenario just created is populated by a set of objects, such as satellites, facilities, and places.
 
 Whereas in the application one adds an object through "Insert -> New" and then selecting the desired object, one can add new "child" objects to the "parent" scenario created in the above code block through
 

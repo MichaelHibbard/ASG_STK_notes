@@ -1,6 +1,6 @@
 # Computing Ground Coverage in Python
 
-In the [STK application](Coverage), coverage can be defined over specific countries or US states, or at a global scale. Similar capabilities are offered in the Python API
+In the [STK application](STK_application/Coverage.md), coverage can be defined over specific countries or US states, or at a global scale. Similar capabilities are offered in the Python API
 
 Exactly like the STK applicaiton, one can first construct a target area to obtain a user-defined coverage definition. However, due to the fact that the GUI is not available, it is likely more straightforward to simply directly start from the coverage definition object.
 

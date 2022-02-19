@@ -2,11 +2,11 @@
 
 Upon first opening STK, you should be greeted with a screen that looks something like this:
 
-![](opening_screen.PNG)
+![](STK_application/STK_application_figures/opening_screen.PNG)
 
 Assuming that you want to create a new scenario (i.e. a new project), choose the first option:
 
-![](opening_screen_2.PNG)
+![](STK_application/STK_application_figures/opening_screen_2.PNG)
 
 **Name**: name of the new scenario
 **Description**: description of the new scenario
@@ -22,7 +22,7 @@ Assuming that you want to create a new scenario (i.e. a new project), choose the
 
 After creating the new scenario, you will be brought to a screen that looks like the following:
 
-![](gui_environment.PNG)
+![](STK_application/STK_application_figures/gui_environment.PNG)
 
 Here, I have done "window -> tile vertically" to fill the screen. 
 
@@ -32,7 +32,7 @@ Click the "eye with a house" symbol to return to the default view.
 
 SAVE YOUR SCENARIO OFTEN! IT DOES NOT DO SO AUTOMATICALLY
 
-Once you are familiar with the layout of the STK window, you can begin to population your scenario with [objects](STK_Objects.md).
+Once you are familiar with the layout of the STK window, you can begin to population your scenario with [objects](STK_application/STK_Objects.md).
 
 # Customizing STK and Connect Commands
 STK provides a number of ways to automate and customize STK.
@@ -41,20 +41,20 @@ One way to customize STK is through the use of Connect Commands in the programmi
 
 To open the programming API, open the html viewer by going to "View -> HTML viewer". Then, click browse on the top menu and navigate to "Example HTML Utilities (on the left) -> STK Automation -> API Demo" and open the API Demo utility, which will dock in the middle of the screen.
 
-![](api_demo.PNG)
+![](STK_application/STK_application_figures/api_demo.PNG)
 
 These examples provide information on how to automatically add new objects. For a comprehensive list of all Connect Commands, go to "Help -> Programming Interface help"
 
 # Movie Timeline Wizard
 STK allows for the straightforward creation of movies to record / export visualizations of your scenario simulation.
 
-Given a saved view (zoom to an [stk object](STK_objects.md) in the 3D viewer, then select "Stored View" in the 3D viewer window menu, click "new", give a descriptive name, then click "OK"), go to "View -> Toolbars -> Movie Timeline".
+Given a saved view (zoom to an [stk object](STK_application/STK_objects.md) in the 3D viewer, then select "Stored View" in the 3D viewer window menu, click "new", give a descriptive name, then click "OK"), go to "View -> Toolbars -> Movie Timeline".
 
 Click the red "REC" button that appears in the menu at the top of the STK window. Going down the options of the left side of the window, choose the desired format for the video.
 
-![](movie_wizard.PNG)
+![](STK_application/STK_application_figures/movie_wizard.PNG)
 
 - - - 
-**N.B. :** In the movie wizard above, under size and quality, it may be helpful to choose "motion blur" to be turned on. Doing so makes the object (e.g. a [satellite](Satellite.md)) appear to travel as fast as it actually is.
+**N.B. :** In the movie wizard above, under size and quality, it may be helpful to choose "motion blur" to be turned on. Doing so makes the object (e.g. a [satellite](STK_application/STK_app_Objects/Satellite.md)) appear to travel as fast as it actually is.
 - - -
 

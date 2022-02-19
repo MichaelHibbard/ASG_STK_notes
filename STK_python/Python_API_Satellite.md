@@ -1,5 +1,5 @@
 # Constructing Satellites in the Python API
-This page discusses the creation of satellites in the [Python API](STK_Python_Getting_started.md). The syntax used in creating a satellite object is essentially the same as the orbit wizard tool used in the creation of a [satellite object](Satellite.md) in the STK application.
+This page discusses the creation of satellites in the [Python API](STK_Python_Getting_started.md). The syntax used in creating a satellite object is essentially the same as the orbit wizard tool used in the creation of a [satellite object](STK_application/STK_App_Objects/Satellite.md) in the STK application.
 
 A satellite object can be input into the current scenario using the following command:
 
@@ -93,7 +93,7 @@ propagator.Propagate()
 
 
 ## Attaching a Sensor
-As discussed in the [STK application notes](Sensors.md), a sensor is a "child" object that can be attached to a "parent" object, such as a satellite. Here, we will discuss the process of adding a sensor to a satellite, although sensors functionally work in the Python API for most other object types (e.g. a place or a facility).
+As discussed in the [STK application notes](STK_application/STK_App_Objects/Sensors.md), a sensor is a "child" object that can be attached to a "parent" object, such as a satellite. Here, we will discuss the process of adding a sensor to a satellite, although sensors functionally work in the Python API for most other object types (e.g. a place or a facility).
 
 To attach a sensor to a defined satellite with variable name "sensor" and reference name "MySensor" to a given satellite, use
 
@@ -110,7 +110,7 @@ sensor = satellite.Children.New(20,'MySensor')
 
 ### Sensor Properties
 
-For our purposes, we will most often assume that the sensor onboard the satellite is the default sensor type, which is a [simple conic](Satellite.md) in the STK application, characterized by the sensor half-angle. To set this for the sensor attached to the satellite, use the following code:
+For our purposes, we will most often assume that the sensor onboard the satellite is the default sensor type, which is a [simple conic](STK_application/STK_App_Objects/Satellite.md) in the STK application, characterized by the sensor half-angle. To set this for the sensor attached to the satellite, use the following code:
 
 ```
 sensor.CommonTasks.SetPatternSimpleConic(<cone half angle in degrees>,<angular resolution>)

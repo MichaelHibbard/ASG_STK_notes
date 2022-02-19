@@ -7,7 +7,7 @@ Talk to Jesse about using the hard drive with high-quality terrain data.
 
 The STK license that we have comes equipped with an example terrain data set. To access this data, first right-click on the scenario object in the "Object Browser" panel and click on "Properties". You should see:
 
-![](terrain_window.PNG)
+![](STK_application/STK_application_figures/terrain_window.PNG)
 
 Navigate to the "Terrain" tab and click "Add" on the right-hand side. The example data set should be found at "C: \\Program Files\\AGI\\STK 12\\Data\\Resources\\stktraining\\samples\\hoquiam-e.dem". 
 
@@ -26,11 +26,11 @@ To do so, go to "Utilities -> Imagery and Terrain Converter". Navigate to the "T
 
 To apply the terrain data to the 3D viewer window, select "Globe Manager" in the 3D window menu. In the panel, select "Add Terrain and Imagery" (the blue plus sign)
 
-![](globe_manager.PNG)
+![](STK_application/STK_application_figures/globe_manager.PNG)
 
 In the window that opens, navigate to the directory where you saved your terrain data. Check the terrain data and click "Add". Click "YES" to include analytically.
 
-![](terrain_window.PNG)
+![](STK_application/STK_application_figures/terrain_window.PNG)
 
 - - -
 **N.B. :** Under the globe manager panel, you can highlight the terrain region in the 3D viewer window by right-clicking on the ".pdtt" file and selecting "toggle extents".

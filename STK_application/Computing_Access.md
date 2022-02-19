@@ -1,5 +1,5 @@
 # Computing Access
-"Access" refers to the times of the simulation for which two objects can interact. Note that access requires each of these objects to have a [sensor](Sensors.md) attached to them.
+"Access" refers to the times of the simulation for which two objects can interact. Note that access requires each of these objects to have a [sensor](STK_application/STK_App_Objects/Sensors.md) attached to them.
 
 In general access requires that there exists a line-of-sight between the sensors. However, STK allows a large number of alternative definitions. For our purposes, this definition of "access" is likely sufficient.
 
@@ -8,7 +8,7 @@ To open the access tool, one can either click on the "green and yellow squares" 
 
 The access window will look like the following:
 
-![](access_window.PNG)
+![](STK_application/STK_application_figures/access_window.PNG)
 
 The "Access for" at the top can be thought of as the "from sensor", which can be changed by clicking the "Select Object" button.
 
@@ -22,7 +22,7 @@ Note that it may be possible that the two sensors are never able to access one a
 
 Below, I have computed the access between sensor 2, located in Austin, TX, and sensor 3, attached to a new satellite named "Satellite2":
 
-![](access_report.PNG)
+![](STK_application/STK_application_figures/access_report.PNG)
 
 Similarly, from the same "Reports" tab, one can also generate a report that gives the azimuth and the elevation at each time step for which the sensors are able to access one another.
 
@@ -31,7 +31,7 @@ To display the time interval on the "Timeline" for which a pair of sensors are a
 
 Once clicked, in the panel on the right, an "AccessIntervals" option should be present. Click "OK" to add it to the Timeline.
 
-![](add_access_interval.PNG)
+![](STK_application/STK_application_figures/add_access_interval.PNG)
 
 The access interval will now appear in the Timeline at the bottom of the STK window.
 
