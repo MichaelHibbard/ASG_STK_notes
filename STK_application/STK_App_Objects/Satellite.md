@@ -16,7 +16,7 @@ Choose the name to be more descriptive than what I have :)
 Upon inserting, you will be able to see its orbit in both the 2D and the 3D plane.
 
 - - - 
-**N.B. :** You can choose to zoom to and rotate about a satellite by right-clicking the desired satellite in the object browser and selecting "zoom to".
+**N.B. :** You can choose to zoom to and rotate about a satellite by right-clicking the desired satellite in the object browser and selecting "zoom to". You can save this view to access quickly by 
 
 ![](zoom_to_sat.PNG)
 - - - 
@@ -44,3 +44,9 @@ One possibly useful display property is to include **vectors** in the satellite 
 ![](sun_moon_vector.PNG)
 
 These vectors may be useful to include since a common constraint is that the sensing region cannot be occluded by the Sun.
+
+### Satellite Coverage
+Please refer to [Coverage](Coverage.md) for information on how to determine the region on Earth that a satellite is able to provide coverage of.
+
+## Satellite Communications
+STK offers the ability to model communications between satellites and stationary objects, such as [places](Place.md) or [facilities](Facility.md) on Earth.

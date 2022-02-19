@@ -32,3 +32,29 @@ Click the "eye with a house" symbol to return to the default view.
 
 SAVE YOUR SCENARIO OFTEN! IT DOES NOT DO SO AUTOMATICALLY
 
+Once you are familiar with the layout of the STK window, you can begin to population your scenario with [objects](STK_Objects.md).
+
+# Customizing STK and Connect Commands
+STK provides a number of ways to automate and customize STK.
+
+One way to customize STK is through the use of Connect Commands in the programming API.
+
+To open the programming API, open the html viewer by going to "View -> HTML viewer". Then, click browse on the top menu and navigate to "Example HTML Utilities (on the left) -> STK Automation -> API Demo" and open the API Demo utility, which will dock in the middle of the screen.
+
+![](api_demo.PNG)
+
+These examples provide information on how to automatically add new objects. For a comprehensive list of all Connect Commands, go to "Help -> Programming Interface help"
+
+# Movie Timeline Wizard
+STK allows for the straightforward creation of movies to record / export visualizations of your scenario simulation.
+
+Given a saved view (zoom to an [stk object](STK_objects.md) in the 3D viewer, then select "Stored View" in the 3D viewer window menu, click "new", give a descriptive name, then click "OK"), go to "View -> Toolbars -> Movie Timeline".
+
+Click the red "REC" button that appears in the menu at the top of the STK window. Going down the options of the left side of the window, choose the desired format for the video.
+
+![](movie_wizard.PNG)
+
+- - - 
+**N.B. :** In the movie wizard above, under size and quality, it may be helpful to choose "motion blur" to be turned on. Doing so makes the object (e.g. a [satellite](Satellite.md)) appear to travel as fast as it actually is.
+- - -
+
